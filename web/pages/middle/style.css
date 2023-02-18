@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, green, blue);
+}
+
+.main {
+    position: absolute;
+    margin-top: 4%;
+    height: 85%;
+    width: 85%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30%;
+    background: linear-gradient(to right, blue, green);
+    animation: slide-up 1s ease-in-out;
+}
+
+.logout-button {
+    height: 7%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 15%;
+    font-size: 100%;
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}
+
+.view-button {
+    width: 40%;
+    height: 15%;
+    border: 2px solid black;
+    border-radius: 15%;
+    font-size: 100%;
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}
+
+.create-button {
+    width: 40%;
+    height: 15%;
+    border: 2px solid black;
+    border-radius: 15%;
+    font-size: 100%;
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}
+
+.adminui-button {
+    width: 40%;
+    height: 15%;
+    border: 2px solid black;
+    border-radius: 15%;
+    font-size: 100%;
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}

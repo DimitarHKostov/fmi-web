@@ -1,0 +1,101 @@
+body {
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, green, blue);
+}
+
+.main {
+    position: absolute;
+    margin-top: 4%;
+    height: 85%;
+    width: 85%;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 30%;
+    background: linear-gradient(to right, blue, green);
+}
+
+.main-upper {
+    display: flex;
+    width: 100%;
+    height: 12%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.back-button {
+    height: 50%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 15%;
+    font-size: 100%;
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}
+
+.logout-button {
+    height: 50%;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 15%;
+    font-size: 100%;
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}
+
+.main-lower {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.name {
+    width: 38%;
+    height: 7%;
+    border: 2px solid black;
+    font-size: 100%;
+    background-color: white;
+}
+
+.beneficier {
+    width: 38%;
+    height: 7%;
+    border: 2px solid black;
+    font-size: 100%;
+    background-color: white;
+}
+
+.iban {
+    width: 38%;
+    height: 7%;
+    border: 2px solid black;
+    font-size: 100%;
+    background-color: white;
+}
+
+.description {
+    width: 50%;
+    height: 15%;
+    border: 2px solid black;
+    font-size: 100%;
+    background-color: white;
+}
+
+.create-button {
+    width: 25%;
+    height: 15%;
+    border: 2px solid black;
+    border-radius: 20%;
+    font-size: 25px;
+    background: linear-gradient(to right, green, blue);
+    color: white;
+}
